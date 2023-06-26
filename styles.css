@@ -1,0 +1,28 @@
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+body {background-image:url("C:\\Users\\USER\\Desktop\\pp.avif");background-size:cover;color:darkblue;}
+p {background-color:aquamarine;font-family:"Georgia";font-size:20px;padding:8px;margin:10px;border: solid black;}
+.enlarged-search{width: 1000px;height: 40px;font-size: 18px;border-color:blue;background-color:bisque;}
+.termino {margin-left: 1200px;margin-top: -50px;}
+.mi-parrafo {font-size: 17px;}
+.image-container1 {margin-top:-27px;margin-left: 215px;}
+
